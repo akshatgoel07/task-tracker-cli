@@ -2,6 +2,7 @@
 
 A simple command-line task tracker built in Go.
 
+![Task Tracker CLI](go-cli.png)
 
 ## Usage
 
