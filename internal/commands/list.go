@@ -7,7 +7,7 @@ import (
 )
 
 func ListTasks(filter ...models.Status) error {
-	fmt.Println(filter, filter)
+	// fmt.Println(filter, filter)
 	tasks, err := storage.ReadTasks()
 	if err != nil {
 		return err
